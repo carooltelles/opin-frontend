@@ -1,6 +1,5 @@
+import { Divider } from "@/components/Divider"
 import React from "react"
-
-import { Divider } from "src/components/Divider"
 
 import { Container, TabGroup } from "./styles"
 

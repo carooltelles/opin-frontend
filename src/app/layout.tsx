@@ -1,5 +1,7 @@
-import StyledComponentsRegistry from "src/lib/registry"
-import GlobalStyle from "src/styles/global"
+import "./globals.css"
+
+import StyledComponentsRegistry from "@/lib/registry"
+import GlobalStyle from "@/styles/global"
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (

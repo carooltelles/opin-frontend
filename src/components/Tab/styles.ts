@@ -21,7 +21,7 @@ export const Text = styled.a<{
     font-size: 16px;
     font-weight: 500;
 
-    color: ${(props) => (props.active ? "#2D373D" : "#D81E05")};
+    color: ${props => (props.active ? "#2D373D" : "#D81E05")};
 `
 
 export const ActiveTab = styled.div`

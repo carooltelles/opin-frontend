@@ -1,7 +1,6 @@
+import { Heading1 } from "@/components/Heading1"
+import { Text1 } from "@/components/Text1"
 import React from "react"
-
-import { Heading1 } from "src/components/Heading1"
-import { Text1 } from "src/components/Text1"
 
 import { Container } from "./styles"
 

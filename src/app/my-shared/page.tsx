@@ -1,8 +1,8 @@
-import { Divider } from "src/components/Divider"
-import { Header } from "src/components/Header"
-import { Tab } from "src/components/Tab"
-import { Tabs } from "src/components/Tabs"
-import { TitlePage } from "src/components/TitlePage"
+import { Divider } from "@/components/Divider"
+import { Header } from "@/components/Header"
+import { Tab } from "@/components/Tab"
+import { Tabs } from "@/components/Tabs"
+import { TitlePage } from "@/components/TitlePage"
 
 import { Container } from "./styles"
 

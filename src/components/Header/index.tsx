@@ -1,4 +1,4 @@
-import { Logo } from "src/components/icons/Logo"
+import { Logo } from "@/components/icons/Logo"
 
 import { Container } from "./styles"
 
