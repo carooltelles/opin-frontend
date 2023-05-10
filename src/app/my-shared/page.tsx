@@ -21,7 +21,7 @@ export default function MySharedPage() {
                 <Tab>Transmitidos</Tab>
             </Tabs>
             <div className="flex justify-end">
-                <Button text={"Solicitar Compartilhamento"} variant="solid" action={() => { }} />
+                <Button text={"Solicitar Compartilhamento"} variant="solid" />
             </div>
         </Container>
     )

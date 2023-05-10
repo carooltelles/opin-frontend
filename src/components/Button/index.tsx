@@ -7,7 +7,7 @@ interface ButtonProps {
 export function Button({ variant, text, action = () => { } }: ButtonProps) {
     return (
         <button
-            onClick={action}
+            onClick={() => action}
             className={`${variant === "solid" ?
                 "bg-primary text-white hover:bg-primary-hover" :
                 "bg-white text-primary border-primary hover:bg-primary hover:text-white"
