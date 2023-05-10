@@ -1,3 +1,5 @@
+"use client"
+
 import { Divider } from "@/components/Divider"
 import { Header } from "@/components/Header"
 import { Tab } from "@/components/Tab"
@@ -21,7 +23,7 @@ export default function MySharedPage() {
                 <Tab>Transmitidos</Tab>
             </Tabs>
             <div className="flex justify-end">
-                <Button text={"Solicitar Compartilhamento"} variant="solid" />
+                <Button text={"Solicitar Compartilhamento"} variant="solid" action={() => console.log("AÇÃO DO BOTÃO")} />
             </div>
         </Container>
     )
