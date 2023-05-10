@@ -5,6 +5,7 @@ import { Tabs } from "@/components/Tabs"
 import { TitlePage } from "@/components/TitlePage"
 
 import { Container } from "./styles"
+import { Button } from "@/components/Button"
 
 export default function MySharedPage() {
     return (
@@ -19,6 +20,9 @@ export default function MySharedPage() {
                 <Tab active>Recebidos</Tab>
                 <Tab>Transmitidos</Tab>
             </Tabs>
+            <div className="flex justify-end">
+                <Button text={"Solicitar Compartilhamento"} variant="solid" action={() => { }} />
+            </div>
         </Container>
     )
 }
