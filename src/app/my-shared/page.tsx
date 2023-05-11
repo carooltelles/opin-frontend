@@ -4,11 +4,9 @@ import { Tab } from "@/components/Tab"
 import { Tabs } from "@/components/Tabs"
 import { TitlePage } from "@/components/TitlePage"
 
-import { Container } from "./styles"
-
 export default function MySharedPage() {
     return (
-        <Container>
+        <div>
             <Header />
             <Divider />
             <TitlePage
@@ -19,6 +17,6 @@ export default function MySharedPage() {
                 <Tab active>Recebidos</Tab>
                 <Tab>Transmitidos</Tab>
             </Tabs>
-        </Container>
+        </div>
     )
 }
