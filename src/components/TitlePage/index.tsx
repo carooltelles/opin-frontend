@@ -2,18 +2,16 @@ import { Heading1 } from "@/components/Heading1"
 import { Text1 } from "@/components/Text1"
 import React from "react"
 
-import { Container } from "./styles"
-
 interface TitlePageProps {
     title: string
     subtitle: string
 }
 
-export function TitlePage({ title, subtitle }: React.PropsWithChildren<TitlePageProps>) {
+export function TitlePage({ title, subtitle }: TitlePageProps) {
     return (
-        <Container>
-            <Heading1>{title}</Heading1>
-            <Text1>{subtitle}</Text1>
-        </Container>
+        <div className="mt-8 ">
+            <Heading1 className="mt-8">{title}</Heading1>
+            <Text1 className="mt-8">{subtitle}</Text1>
+        </div>
     )
 }
