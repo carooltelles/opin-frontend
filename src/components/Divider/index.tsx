@@ -1,8 +1,9 @@
-import { Container } from "./styles"
-
 interface DividerProps {
-    marginTop?: string
+    className?: string
 }
-export function Divider({ marginTop }: React.PropsWithoutRef<DividerProps>) {
-    return <Container marginTop={marginTop} />
+
+export function Divider({ className = "" }: React.PropsWithoutRef<DividerProps>) {
+    className = `-z-10 w-full h-px bg-slate-200 ${className}`
+
+    return <div className={className} />
 }
