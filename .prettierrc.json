@@ -4,5 +4,6 @@
     "printWidth": 120,
     "tabWidth": 4,
     "arrowParens": "avoid",
-    "singleQuote": false
+    "singleQuote": false,
+    "endOfLine": "lf"
 }
