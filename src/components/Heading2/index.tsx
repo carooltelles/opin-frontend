@@ -1,7 +1,5 @@
 import React from "react"
 
-import { Container } from "./styles"
-
 export function Heading2({ children }: React.PropsWithChildren) {
-    return <Container>{children}</Container>
+    return <h1 className="font-medium text-2xl">{children}</h1>
 }
