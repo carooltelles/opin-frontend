@@ -1,7 +1,11 @@
 import React from "react"
 
-import { Container } from "./styles"
+type Text1Props = {
+    className?: string
+}
 
-export function Text1({ children }: React.PropsWithChildren) {
-    return <Container>{children}</Container>
+export function Text1({ className = "", children }: React.PropsWithChildren<Text1Props>) {
+    className = `font-normal text-base ${className}`
+
+    return <span className={className}>{children}</span>
 }
