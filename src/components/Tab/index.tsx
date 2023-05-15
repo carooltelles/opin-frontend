@@ -1,12 +1,10 @@
 import React from "react"
-
 import { Container, Text, ActiveTab } from "./styles"
-
-interface TabProps {
-    active?: boolean
+interface ITab extends React.PropsWithChildren {
+    active?: boolean;
 }
 
-export function Tab({ children, active = false }: React.PropsWithChildren<TabProps>) {
+export function Tab({ children, active = false }: ITab) {
     return (
         <Container>
             <Text active={active}>{children}</Text>
