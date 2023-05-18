@@ -1,4 +1,4 @@
-import { StepComponentProps } from "@/app/my-shared/new/page"
+import { StepComponentProps } from "@/app/shares/new/page"
 import { Divider } from "@/components/Divider"
 import { Form } from "@/components/Forms"
 import { Heading2 } from "@/components/Heading2"
