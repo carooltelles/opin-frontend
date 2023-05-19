@@ -1,11 +1,9 @@
 import { Logo } from "@/components/icons/Logo"
 
-import { Container } from "./styles"
-
 export function Header() {
     return (
-        <Container>
+        <div className="flex items-center h-20">
             <Logo />
-        </Container>
+        </div>
     )
 }

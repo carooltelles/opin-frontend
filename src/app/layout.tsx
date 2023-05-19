@@ -1,8 +1,5 @@
 import "./globals.css"
 
-import StyledComponentsRegistry from "@/lib/registry"
-import GlobalStyle from "@/styles/global"
-
 export default function RootLayout({ children }: { children: React.ReactNode }) {
     return (
         <html lang="en">
@@ -14,10 +11,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                     rel="stylesheet"
                 />
             </head>
-            <body>
-                <GlobalStyle />
-                <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
-            </body>
+            <body>{children}</body>
         </html>
     )
 }

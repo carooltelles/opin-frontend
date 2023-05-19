@@ -1,7 +1,11 @@
 import React from "react"
 
-import { Container } from "./styles"
+type Headgin1Props = {
+    className?: string
+}
 
-export function Heading1({ children }: React.PropsWithChildren) {
-    return <Container>{children}</Container>
+export function Heading1({ className = "", children }: React.PropsWithChildren<Headgin1Props>) {
+    className = `font-normal text-4xl ${className}`
+
+    return <h1 className={className}>{children}</h1>
 }
