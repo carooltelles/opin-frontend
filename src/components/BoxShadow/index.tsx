@@ -1,5 +1,5 @@
 interface BoxShadowProps extends React.PropsWithChildren {
-    className?: string;
+    className?: string
 }
 
 export function BoxShadow({ children, className }: BoxShadowProps) {

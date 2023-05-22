@@ -24,7 +24,7 @@
             "error",
             {
                 "newlinesBetween": "always",
-                "groups": ["module", "/^@emotion/", "/^@cvccorp-components/", "/^src/", ["parent", "sibling", "index"]],
+                "groups": ["module", "/^react/", "/^@\//", ["parent", "sibling", "index"]],
                 "alphabetize": {
                     "order": "asc",
                     "ignoreCase": true

@@ -1,5 +1,10 @@
 "use client"
 
+import axios from "axios"
+import { useRouter } from "next/navigation"
+
+import { useEffect, useState } from "react"
+
 import { BoxShadow } from "@/components/BoxShadow"
 import { Button } from "@/components/Button"
 import { Divider } from "@/components/Divider"
@@ -8,9 +13,6 @@ import { Loading } from "@/components/Loading"
 import { Tab } from "@/components/Tab"
 import { Tabs } from "@/components/Tabs"
 import { TitlePage } from "@/components/TitlePage"
-import axios from "axios"
-import { useRouter } from "next/navigation"
-import { useEffect, useState } from "react"
 
 interface ISharesReceivedProps {
     id: number

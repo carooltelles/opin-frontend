@@ -1,5 +1,6 @@
-import { Divider } from "@/components/Divider"
 import React from "react"
+
+import { Divider } from "@/components/Divider"
 
 export function Tabs({ children }: React.PropsWithChildren) {
     return (
