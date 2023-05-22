@@ -1,9 +1,10 @@
 "use client"
 
+import { useState } from "react"
+
 import ClientIdentification from "@/components/NewShare/ClientIdentification"
 import { Steps } from "@/components/NewShare/Steps"
 import { TitlePage } from "@/components/TitlePage"
-import { useState } from "react"
 
 type FormsNewShares = {
     [key: string]: object

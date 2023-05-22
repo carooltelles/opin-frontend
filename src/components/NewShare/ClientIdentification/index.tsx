@@ -1,11 +1,13 @@
+import { zodResolver } from "@hookform/resolvers/zod"
+import { z } from "zod"
+
+import { FormProvider, useForm } from "react-hook-form"
+
 import { StepComponentProps } from "@/app/shares/new/page"
 import { Divider } from "@/components/Divider"
 import { Form } from "@/components/Forms"
 import { Heading2 } from "@/components/Heading2"
 import { Text1 } from "@/components/Text1"
-import { zodResolver } from "@hookform/resolvers/zod"
-import { FormProvider, useForm } from "react-hook-form"
-import { z } from "zod"
 
 const createClientIdentificationSchema = z.object({
     doc: z.string().nonempty("CPF/CNPJ é obrigatório"),
