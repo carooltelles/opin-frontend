@@ -2,7 +2,7 @@
 
 # vscode
 .vscode
-
+yarn.lock
 # dependencies
 /node_modules
 /.pnp
